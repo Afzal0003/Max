@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    /* max-width: 1920px; */
+    background-color: #232323;
+}
+
+.container {
+    /* padding: 0px 20px; */
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px
+        /* gap: 30px;
+  align-items: baseline; */
+}
+
+header a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    /* display: flex;
+  gap: 15px; */
+}
+
+.icons {
+    color: #ffffff;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fa-twitter {
+    color: #f65aa7;
+}
+
+.header-two {
+    background-color: #ffffff;
+    padding: 68px 0;
+    padding: 0;
+
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.nav ul {
+    display: flex;
+    gap: 10px;
+    padding-left: 150px;
+    list-style: none;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    /* color: ffffff; */
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.slider {
+    background-color: #777777;
+    padding: 240px 10px;
+
+    text-align: center;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.blue {
+    color: #9fd7ef;
+}
+
+.pink {
+    color: #f65aa7;
+}
+
+.desc {
+    color: #ffffff;
+    /* CHANGE FONT */
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 40px 0px;
+}
+
+.slider a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px 26px;
+
+    border-radius: 5px;
+}
+
+.about {
+    background-color: #9fd7ef;
+    color: #232323;
+    margin-right: 10px;
+}
+
+.works {
+    background-color: #f65aa7;
+    color: #ffffff;
+}
+
+.container h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+    font-weight: 800;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.sep {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    gap: 75px;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 290px;
+    padding: 0 36px;
+
+}
+
+.cards h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0px;
+}
+
+.cards p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #898989;
+    padding-bottom: 35px;
+}
+
+.cards a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9fd7ef;
+    padding: 11px 29px;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.products-div {
+    text-align: center;
+    display: flex;
+}
+
+.products-div h1 {
+    padding-bottom: 27px;
+}
+
+.products h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 13px;
+}
+
+.products p {
+    /* font-family: 'Roboto Slab', serif; */
+    font-size: 16px;
+    font-weight: 800;
+    color: #f65aa7;
+    /* padding-bottom: 35px; */
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        padding: 14px 0;
+    }
+
+    .header-two {
+        padding: 0;
+    }
+
+    .cards {
+        gap: 35px;
+        flex-direction: column;
+        padding-bottom: 290px;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin: 40px 0px;
+    }
+
+    .heading {
+        font-size: 23px;
+    }
+
+    .info {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .slider a {
+        padding: 10px 26px;
+    }
+
+    .nav ul {
+        gap: 10px;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .two {
+        justify-content: space-between;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .slider {
+        background-color: #777777;
+        padding: 250px 30px;
+        text-align: center;
+    }
+
+    .cards {
+        padding: 0 36px;
+    }
+
+}
+
+@media only screen and (min-width: 425px) {
+    .container {
+        padding: 0 14px;
+    }
+
+    .header-two {
+        padding: 0;
+    }
+
+    .cards {
+        gap: 50px;
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin: 40px 0px;
+    }
+
+    .heading {
+        color: #ffffff;
+        font-family: 'Roboto Slab', serif;
+        font-size: 26px;
+        font-weight: 800;
+    }
+
+    .info {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .slider a {
+        padding: 10px 26px;
+    }
+
+    .nav ul {
+        gap: 10px;
+        flex-direction: row;
+        padding-left: 0;
+    }
+
+    .two {
+        justify-content: space-between;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0px 15px;
+
+    }
+
+    .two {
+        /* justify-content: space-between; */
+        gap: 15px;
+        flex-direction: row;
+    }
+
+    .products {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .info {
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .icons {
+        gap: 10px;
+    }
+
+    .header-two {
+        padding: 5px 0;
+    }
+
+    .nav ul {
+        padding-left: 0;
+        gap: 17px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin: 40px 43px;
+    }
+
+
+    .slider a {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+
+    .cards {
+        gap: 74px;
+        padding-bottom: 290px;
+        flex-direction: row;
+        padding: 0 0px;
+    }
+
+    .cards p {
+        font-size: 10px;
+        padding-bottom: 35px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 0px 15px;
+    }
+
+    .products img {
+        width: 230px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin: 46px 179px;
+    }
+
+    .nav ul {
+        gap: 37px;
+    }
+
+    .header-two {
+        padding: 23px 0;
+    }
+
+    .products {
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 15px;
+        padding: 60px 0px 150px;
+    }
+
+    .container h1 {
+        padding: 145px 0px 25px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+
+    .container {
+        padding: 0 100px;
+    }
+
+    .header-two {
+        padding: 28px 0;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .logo {
+        padding-right: 121px;
+    }
+
+    .nav ul {
+        gap: 70px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 0px 15px;
+    }
+
+    .products img {
+        width: 230px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 14px;
+        margin: 46px 179px;
+    }
+
+    .nav ul {
+        gap: 37px;
+    }
+
+    .header-two {
+        padding: 23px 0;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+
+    .container {
+        padding: 0px 100px;
+    }
+
+    .header-two {
+        padding: 28px 0;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .container {
+        padding: 0px 145px;
+    }
+
+    .header-two {
+        padding: 60px 0;
+    }
+
+    .heading {
+        font-size: 41px;
+    }
+
+    .desc {
+        font-size: 18px;
+        margin: 46px 149px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container {
+        padding: 0px 375px;
+    }
+
+    .two {
+        gap: 37px;
+        flex-direction: row;
+        padding: 20px 0;
+    }
+
+    .nav ul {
+        flex-direction: row;
+        padding-left: 0;
+    }
+
+
+
+    .info {
+        flex-direction: row;
+    }
+
+    .slider {
+        padding: 260px 30px 305px 0;
+    }
+
+    .slider a {
+        padding: 16px 39px;
+    }
+
+    .sep {
+        padding-bottom: 72px;
+    }
+
+    .cards {
+        flex-direction: row;
+        padding-bottom: 290px;
+        padding: 0 36px;
+    }
+
+    .products {
+        padding: 60px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .products-div h1 {
+        padding: 290px 0 27px;
+    }
+
+}

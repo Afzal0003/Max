@@ -1,0 +1,382 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  .main-header {
+      /* max-width: 1920px; */
+      background-color: #232323;
+  }
+
+  .container {
+      padding: 0px 20px;
+      width: 100%;
+      max-width: 1920px;
+      margin: 0 auto;
+  }
+
+
+
+  @media only screen and (min-width: 320px) {
+      .container {
+          padding: 14px 0;
+      }
+
+      .header-two {
+          padding: 0;
+      }
+
+      .cards {
+          gap: 75px;
+          flex-direction: column;
+          padding-bottom: 290px;
+      }
+
+      .products {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .desc {
+          font-size: 14px;
+          margin: 40px 0px;
+      }
+
+      .heading {
+          font-size: 21px;
+      }
+
+      .info {
+          display: flex;
+          gap: 20px;
+          flex-direction: column;
+      }
+
+      .slider a {
+          padding: 10px 26px;
+      }
+
+      .nav ul {
+          gap: 10px;
+          flex-direction: column;
+          padding-left: 0;
+      }
+
+      .two {
+          justify-content: space-between;
+          gap: 15px;
+          flex-direction: column;
+      }
+
+      .slider {
+          padding: 240px 10px;
+      }
+
+      .cards {
+          padding: 0 36px;
+      }
+
+      .icons {
+          gap: 10px;
+      }
+
+      .container h1 {
+          font-size: 27px;
+      }
+  }
+
+  @media only screen and (min-width: 375px) {
+      .container {
+          padding: 14px 0;
+      }
+
+      .header-two {
+          padding: 0;
+      }
+
+      .cards {
+          gap: 75px;
+          flex-direction: column;
+          padding-bottom: 290px;
+      }
+
+      .products {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .desc {
+          font-size: 14px;
+          margin: 40px 0px;
+      }
+
+      .heading {
+          font-size: 23px;
+      }
+
+      .info {
+          display: flex;
+          gap: 20px;
+          flex-direction: column;
+      }
+
+      .slider a {
+          padding: 10px 26px;
+      }
+
+      .nav ul {
+          gap: 10px;
+          flex-direction: column;
+          padding-left: 0;
+      }
+
+      .two {
+          justify-content: space-between;
+          gap: 15px;
+          flex-direction: column;
+      }
+
+      .slider {
+          background-color: #777777;
+          padding: 240px 30px;
+          text-align: center;
+      }
+
+      .cards {
+          padding: 0 36px;
+      }
+  }
+
+  @media only screen and (min-width: 425px) {
+      .container {
+          padding: 14px 0;
+      }
+
+      .header-two {
+          padding: 0;
+      }
+
+      .cards {
+          gap: 75px;
+          flex-direction: column;
+          padding-bottom: 290px;
+      }
+
+      .products {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .desc {
+          font-size: 14px;
+          margin: 40px 0px;
+      }
+
+      .heading {
+          color: #ffffff;
+          font-family: 'Roboto Slab', serif;
+          font-size: 26px;
+          font-weight: 800;
+      }
+
+      .info {
+          display: flex;
+          gap: 20px;
+          flex-direction: column;
+      }
+
+      .slider a {
+          padding: 10px 26px;
+      }
+
+      .nav ul {
+          gap: 10px;
+          flex-direction: column;
+          padding-left: 0;
+      }
+
+      .two {
+          justify-content: space-between;
+          gap: 15px;
+          flex-direction: column;
+      }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+      .container {
+          padding: 14px 15px;
+
+      }
+
+      .products {
+          flex-wrap: wrap;
+          justify-content: space-around;
+          gap: 30px;
+      }
+
+      .info {
+          gap: 20px;
+      }
+
+      .icons {
+          gap: 10px;
+      }
+
+      .header-two {
+          padding: 5px 0;
+      }
+
+      .nav ul {
+          padding-left: 0;
+          gap: 17px;
+      }
+
+      .heading {
+          font-size: 25px;
+      }
+
+      .desc {
+          font-size: 14px;
+          margin: 40px 43px;
+      }
+
+
+      .slider a {
+          font-size: 14px;
+          padding: 12px 28px;
+      }
+
+      .cards {
+          gap: 0px;
+          padding-bottom: 290px;
+      }
+
+      .cards p {
+          font-size: 10px;
+          padding-bottom: 35px;
+      }
+  }
+
+  @media only screen and (min-width: 1024px) {
+      .container {
+          padding: 14px 15px;
+      }
+
+      .products img {
+          width: 230px;
+      }
+
+      .heading {
+          font-size: 32px;
+      }
+
+      .desc {
+          font-size: 14px;
+          margin: 46px 179px;
+      }
+
+      .nav ul {
+          gap: 37px;
+      }
+
+      .header-two {
+          padding: 23px 0;
+      }
+  }
+
+  @media only screen and (min-width: 1366px) {
+
+      .container {
+          padding: 14px 100px;
+      }
+
+      .header-two {
+          padding: 28px 0;
+      }
+
+      .heading {
+          font-size: 40px;
+      }
+  }
+
+  @media only screen and (min-width: 1440px) {
+
+      .container {
+          padding: 0px 145px;
+      }
+
+      .header-two {
+          padding: 50px 0;
+      }
+
+      .heading {
+          font-size: 41px;
+      }
+
+      .desc {
+          font-size: 18px;
+          margin: 46px 149px;
+      }
+  }
+
+  @media only screen and (min-width: 1920px) {
+      .container {
+          padding: 0px 375px;
+      }
+
+
+
+      .two {
+
+          gap: 37px;
+          flex-direction: column;
+          padding: 20px 0;
+      }
+
+      .nav ul {
+          flex-direction: column;
+          padding-left: 0;
+      }
+
+
+
+      .info {
+          flex-direction: column;
+
+      }
+
+      .slider {
+          padding: 353px 30px;
+      }
+
+      .slider a {
+          padding: 16px 39px;
+      }
+
+      .sep {
+          padding-bottom: 72px;
+      }
+
+      .cards {
+          flex-direction: column;
+          padding-bottom: 290px;
+          padding: 0 36px;
+      }
+
+      .products {
+          padding: 60px 0;
+          display: flex;
+          justify-content: space-between;
+      }
+
+
+      .products-div h1 {
+          padding-bottom: 27px;
+      }
+
+  }
