@@ -33,8 +33,6 @@ header a {
     font-size: 13px;
     color: #ffffff;
     text-decoration: none;
-    /* display: flex;
-  gap: 15px; */
 }
 
 .icons {
@@ -45,26 +43,32 @@ header a {
     gap: 10px;
 }
 
-.fa-twitter {
+header a:hover {
+    color: blue;
+}
+
+.icons i:hover {
     color: #f65aa7;
 }
 
-.header-two {
+.desktop-header {
     background-color: #ffffff;
     padding: 68px 0;
     padding: 0;
-
+    display: none;
 }
 
 .two {
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px 0;
 }
 
-.nav ul {
+
+.nav ul,
+.mobilenav {
     display: flex;
     gap: 10px;
     padding-left: 150px;
@@ -73,12 +77,21 @@ header a {
     padding-left: 0;
 }
 
-.nav ul li a {
+.nav ul li a,
+.mobilenav li a {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     font-size: 13px;
     font-weight: 400;
-    /* color: ffffff; */
+    color: #232323;
+}
+
+.mobilenav li a:hover {
+    font-weight: 800;
+}
+
+.mobilenav {
+    display: none;
 }
 
 .info {
@@ -134,9 +147,19 @@ header a {
     margin-right: 10px;
 }
 
+.about:hover {
+    background-color: #232323;
+    color: #9fd7ef;
+}
+
 .works {
     background-color: #f65aa7;
     color: #ffffff;
+}
+
+.works:hover {
+    color: #f65aa7;
+    background-color: #ffffff;
 }
 
 .container h1 {
@@ -188,6 +211,10 @@ header a {
     border-radius: 5px;
 }
 
+.cards a:hover {
+    background-color: #9fd7ef;
+}
+
 .products {
     padding: 60px 0;
     display: flex;
@@ -224,7 +251,7 @@ header a {
         padding: 14px 0;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 0;
     }
 
@@ -287,7 +314,7 @@ header a {
         padding: 0 14px;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 0;
     }
 
@@ -344,6 +371,10 @@ header a {
 
     }
 
+    .mobile-header {
+        display: none;
+    }
+
     .two {
         /* justify-content: space-between; */
         gap: 15px;
@@ -366,7 +397,8 @@ header a {
         gap: 10px;
     }
 
-    .header-two {
+    .desktop-header {
+        display: block;
         padding: 5px 0;
     }
 
@@ -425,7 +457,7 @@ header a {
         gap: 37px;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 23px 0;
     }
 
@@ -447,7 +479,7 @@ header a {
         padding: 0 100px;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 28px 0;
     }
 
@@ -486,7 +518,7 @@ header a {
         gap: 37px;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 23px 0;
     }
 }
@@ -497,7 +529,7 @@ header a {
         padding: 0px 100px;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 28px 0;
     }
 
@@ -512,7 +544,7 @@ header a {
         padding: 0px 145px;
     }
 
-    .header-two {
+    .desktop-header {
         padding: 60px 0;
     }
 
