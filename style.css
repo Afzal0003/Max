@@ -13,7 +13,7 @@
 }
 
 .container {
-    /* padding: 0px 20px; */
+    padding: 0px 20px;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -185,6 +185,13 @@ header a:hover {
 
 }
 
+.card .fa-solid {
+    border-radius: 50%;
+    color: #f65aa7;
+    border: 1px dashed #f65aa7;
+    padding: 30px;
+}
+
 .cards h5 {
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
@@ -206,13 +213,16 @@ header a:hover {
     font-weight: 800;
     text-decoration: none;
     color: #ffffff;
-    background-color: #9fd7ef;
+    /* background-color: #9fd7ef; */
     padding: 11px 29px;
     border-radius: 5px;
 }
 
-.cards a:hover {
-    background-color: #9fd7ef;
+.dash:hover {
+    background-color: #f65aa7;
+    color: white;
+    border-radius: 50%;
+    padding: 30px;
 }
 
 .products {
@@ -238,12 +248,52 @@ header a:hover {
     padding: 20px 13px;
 }
 
-.products p {
-    /* font-family: 'Roboto Slab', serif; */
-    font-size: 16px;
+.grey {
+    background-color: gray;
+    width: 280px;
+    height: 260px;
+
+}
+
+.addcard {
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: white;
+    border-radius: 5%;
+    color: black;
+    font-family: 'Roboto Slab', serif;
     font-weight: 800;
-    color: #f65aa7;
-    /* padding-bottom: 35px; */
+}
+
+.views {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding: 10px 0;
+}
+
+.fa-heart {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5%;
+    color: black;
+    font-weight: 800;
+}
+
+.greycontent {
+    padding: 30% 0;
+    display: none;
+
+}
+
+.grey:hover .greycontent {
+    background-color: #f65aa7;
+    display: block;
+}
+
+.fa-star,
+.fa-star {
+    color: #fbc725;
 }
 
 @media only screen and (min-width: 375px) {
@@ -476,7 +526,7 @@ header a:hover {
 @media only screen and (min-width: 1366px) {
 
     .container {
-        padding: 0 100px;
+        /* padding: 0 100px; */
     }
 
     .desktop-header {
@@ -526,7 +576,7 @@ header a:hover {
 @media only screen and (min-width: 1366px) {
 
     .container {
-        padding: 0px 100px;
+        /* padding: 0px 100px; */
     }
 
     .desktop-header {
@@ -541,7 +591,7 @@ header a:hover {
 @media only screen and (min-width: 1440px) {
 
     .container {
-        padding: 0px 145px;
+        /* padding: 0px 145px; */
     }
 
     .desktop-header {
