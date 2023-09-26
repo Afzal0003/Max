@@ -136,7 +136,7 @@ header a:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 800;
-    padding: 10px 26px;
+    padding: 10px 21px;
 
     border-radius: 5px;
 }
@@ -316,6 +316,10 @@ header a:hover {
         flex-direction: column;
     }
 
+    .product {
+        padding: 0 13%;
+    }
+
     .desc {
         font-size: 14px;
         margin: 40px 0px;
@@ -436,6 +440,10 @@ header a:hover {
         justify-content: space-around;
         flex-direction: row;
         gap: 30px;
+    }
+
+    .product {
+        padding: 0 0;
     }
 
     .info {
